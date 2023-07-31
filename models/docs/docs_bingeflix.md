@@ -47,3 +47,22 @@ The unique identifier of the Bingeflix user.
 {% docs country %}
  Where the user resides.
 {% enddocs %}
+
+## Events
+This section contains documentation from the Bingeflix Events table.
+
+{% docs session_id %}
+ The unique identifier of the session in the Bingeflix application.
+{% enddocs %}
+
+{% docs created_at %}
+  When the event was logged.
+{% enddocs %}
+
+{% docs event_name %}
+ The name of the event.
+{% enddocs %}
+
+{% docs event_id %}
+ The unique identifier of the event.
+{% enddocs %}
