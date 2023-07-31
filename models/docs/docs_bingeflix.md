@@ -66,3 +66,22 @@ This section contains documentation from the Bingeflix Events table.
 {% docs event_id %}
  The unique identifier of the event.
 {% enddocs %}
+
+## Subscription Plans
+This section contains documentation from the Bingeflix subscription_plans table.
+
+{% docs subscription_plan_id %}
+ The unique identifier of the subscription plan.
+{% enddocs %}
+
+{% docs plan_name %}
+ The name of the subscription plan.
+{% enddocs %}
+
+{% docs pricing %}
+ The price of the subscription.
+{% enddocs %}
+
+{% docs payment_period %}
+ The recurring payment period for the subscription.
+{% enddocs %}
