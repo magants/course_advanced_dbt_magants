@@ -85,3 +85,22 @@ This section contains documentation from the Bingeflix subscription_plans table.
 {% docs payment_period %}
  The recurring payment period for the subscription.
 {% enddocs %}
+
+## Subscriptions
+This section contains documentation from the Bingeflix subscriptions table.
+
+{% docs subscription_plan_id %}
+ The subscription identifier.
+{% enddocs %}
+
+{% docs starts_at %}
+ When the subscription started.
+{% enddocs %}
+
+{% docs ends_at %}
+ When the subscription ends. This value is NULL if the subscription is active.
+{% enddocs %}
+
+{% docs subscription_id %}
+ The unique identifier for the subscription.
+{% enddocs %}
