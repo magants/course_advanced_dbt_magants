@@ -49,7 +49,9 @@ The unique identifier of the Bingeflix user. A user is created when..
 {% enddocs %}
 
 ## Events
-This section contains documentation from the Bingeflix Events table.
+{% docs table_events %}
+This table contains information about the behavioral events.
+{% enddocs %}
 
 {% docs session_id %}
  The unique identifier of the session in the Bingeflix application.
