@@ -1,0 +1,20 @@
+models:
+  - name: fct_events
+    description: This model contains information about Bingeflix events.
+    meta:
+      priority: high
+    columns:
+      - name: session_id
+        tests:
+          - not_null
+          - unique
+
+      - name: created_at
+        description: When the event was created.
+
+      - name: user_id
+        description: '{{ doc("bingeflix_user_id") }}'
+
+      - name: event_name
+
+      - name: event_id
