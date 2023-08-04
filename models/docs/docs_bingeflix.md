@@ -66,7 +66,7 @@ This table contains information about the behavioral events.
 {% enddocs %}
 
 {% docs event_id %}
- The unique identifier of the event.
+ The unique id of the event.
 {% enddocs %}
 
 ## Subscription Plans
