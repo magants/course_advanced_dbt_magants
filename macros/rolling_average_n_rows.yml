@@ -1,0 +1,14 @@
+# rolling_average_n_rows.yml
+# This macro calculates the rolling average for a column over a period of <n> rows.
+
+rolling_average_n_rows:
+  description: Calculates the rolling average for a column based on <n> rows.
+  parameters:
+  - name: column_name
+    description: The column for the rolling average
+  - name: partition_by
+    description: The partition_by column
+  - name: order by
+    description: The order by column
+  - name: n
+    description: The number of rows preceding the current row
