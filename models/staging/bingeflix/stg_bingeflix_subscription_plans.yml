@@ -19,6 +19,7 @@ models:
         description: '{{ doc("pricing") }}'
         tests:
           - not_null
+          - column_is_positive
 
       - name: payment_period
         description: '{{ doc("payment_period") }}'
